@@ -103,20 +103,20 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>Welcome to Gamba PLay 👋</h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          Gamba Play A fair, simple and decentralized casino on Solana. Play Now. 
         </p>
       </div>
       <Buttons>
         <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
-          🚀 Add Liquidity
+          Telegram
         </button>
-        <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          👨‍💻 Build your own
+        <button onClick={() => window.open('https://t.me/GambaPlay')}>
+          Twitter
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://x.com/GambaPlay')}>
+          💬 Buy now
         </button>
       </Buttons>
     </Welcome>
