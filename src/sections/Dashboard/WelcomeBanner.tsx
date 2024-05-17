@@ -109,10 +109,10 @@ export function WelcomeBanner() {
         </p>
       </div>
       <Buttons>
-        <button onClick={() => 
+        <button onClick={() => window.open('https://t.me/GambaPlay')}>
           Telegram
         </button>
-        <button onClick={() => window.open('https://t.me/GambaPlay')}>
+        <button onClick={() => window.open('https://x.com/GambaPlay')}>
           Twitter
         </button>
         <button onClick={() => window.open('https://x.com/GambaPlay')}>
