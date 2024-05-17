@@ -109,7 +109,7 @@ export function WelcomeBanner() {
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
+        <button onClick={() => 
           Telegram
         </button>
         <button onClick={() => window.open('https://t.me/GambaPlay')}>
